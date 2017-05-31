@@ -245,8 +245,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -308,7 +308,7 @@ han: false
 
 # Disqus (yafey.r@gmail.com)
 disqus:
-  enable: true
+  enable: false
   shortname: yafey
   count: true
 
@@ -320,9 +320,9 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
-  appid:
-  appkey:
+  enable: true
+  appid: cyt2xvNCW
+  appkey: 1ac6297c092be17ac65dc04d4c50b1c8
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
