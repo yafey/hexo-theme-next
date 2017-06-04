@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-since: 2011
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -46,11 +46,11 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories
-  about: /about
-  archives: /archives
   tags: /tags
+  archives: /archives
+  about: /about
   #sitemap: /sitemap.xml
-  commonweal: /404.html
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -204,7 +204,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -223,7 +223,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -238,7 +238,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -458,7 +458,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
@@ -488,7 +488,7 @@ exturl: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: false
+use_motion: true
 
 # Fancybox
 fancybox: true
